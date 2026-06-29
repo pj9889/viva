@@ -82,7 +82,7 @@
             text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         }
         .powered-by span {
-            color: #ffcc00; 
+            color: #39ff14; /* এখানে কালার পরিবর্তন করে নিয়ন গ্রিন করা হয়েছে */
             font-weight: 800;
         }
         .text-line {
@@ -117,11 +117,11 @@
         }
         .slide-from-bottom {
             animation: slideBottom 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, 
-                       megaShake 0.15s infinite alternate linear;
+                        megaShake 0.15s infinite alternate linear;
             animation-delay: 0s, 0.4s;
         }
 
-        /* আকর্ষণীয় হলুদ বাটন স্টাইল */
+        /* আকর্ষণীয় হলুদ বাটন স্টাইল */
         .cta-button {
             display: none;
             text-decoration: none;
@@ -143,13 +143,13 @@
             transition: transform 0.2s;
         }
         
-        /* বাটনের অনবরত নড়াচড়া (Animation) */
+        /* বাটনের অনবরত নড়াচড়া (Animation) */
         .button-active {
             display: inline-block;
             animation: pulseNudge 1.5s infinite ease-in-out;
         }
 
-        /* ক্লিক করার পর বাম থেকে ডানে লাল হওয়ার ইফেক্ট */
+        /* ক্লিক করার পর বাম থেকে ডানে লাল হওয়ার ইফেক্ট */
         .cta-button.clicked {
             animation: fillRed 1s linear forwards;
             pointer-events: none;
@@ -164,7 +164,7 @@
             margin-top: 10px;
         }
 
-        /* মিডিয়াম সাইজ ফেক বাফারিং */
+        /* মিডিয়াম সাইজ ফেক বাফারিং */
         .fake-buffer {
             width: 60px;
             height: 60px;
@@ -244,7 +244,8 @@
     <div class="content-container">
         <div class="logo-container">
             <img src="lgd1.webp" alt="Logo">
-            <div class="powered-by">Powered by <span>Locanto</span></div>
+            <!-- এখানে Locanto পরিবর্তন করে Vivastreet করা হয়েছে -->
+            <div class="powered-by">Powered by <span>Vivastreet</span></div>
         </div>
 
         <h1 id="text1" class="text-line text-many-holes">Many Holes</h1>
